@@ -12,7 +12,7 @@ define('CONFIG_PATH', BASE_PATH . '/config');
 define('UPLOAD_PATH', PUBLIC_PATH . '/uploads');
 
 // URL Constants
-define('BASE_URL', 'http://localhost/medtrack-ipsrs');
+define('BASE_URL', 'http://localhost/Medtrack-IPSRS');
 define('PUBLIC_URL', BASE_URL . '/public');
 
 // App Constants
@@ -22,7 +22,7 @@ define('TIMEZONE', 'Asia/Jakarta');
 
 // Database Constants
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'medtrack_ipsrs');
+define('DB_NAME', 'medtrack_ipsrs_db');
 define('DB_USER', 'root');
 define('DB_PASS', '');
 

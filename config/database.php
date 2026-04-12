@@ -6,7 +6,7 @@
 
 class Database {
     private $host = 'localhost';
-    private $db = 'medtrack_ipsrs';
+    private $db = 'medtrack_ipsrs_db';
     private $user = 'root';
     private $pass = '';
     private $charset = 'utf8mb4';

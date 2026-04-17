@@ -170,7 +170,7 @@ function hasAnyRole(...$roles) {
  */
 function requireLogin() {
     if (!isLoggedIn()) {
-        header('Location: ' . BASE_URL . '/public?path=auth');
+        header('Location: ' . BASEURL . '/auth');
         exit;
     }
 }

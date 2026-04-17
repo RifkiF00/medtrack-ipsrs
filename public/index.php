@@ -1,11 +1,11 @@
 <?php
-// Nyalakan session untuk keperluan login nanti
-if( !session_id() ) {
-    session_start();
-}
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 
-// Panggil file inisiasi dari folder app
 require_once '../app/init.php';
 
-// Nyalakan mesin Router
+if (function_exists('setSecurityHeaders')) {
+    setSecurityHeaders();
+}
+
 $app = new App();
